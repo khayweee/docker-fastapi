@@ -7,3 +7,6 @@ class City(BaseModel):
     # Specify the type of variable
     name: str
     timezone: str
+
+db = []
+
