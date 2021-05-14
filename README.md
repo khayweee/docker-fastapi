@@ -2,8 +2,6 @@
 Containerise Fastapi
 
 # Required Libraries
-
-# Required Libraries
 1. Docker
 ```
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
