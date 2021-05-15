@@ -9,7 +9,7 @@ def index():
     return {"title": "hello coder from city"}
 
 @router.get('/list', tags=["city"])
-async def get_cities():
+async def list_cities():
     return await City_Pydantic.from_queryset(City.all())
 
 @router.get('/{city_id}', tags=["city"])
