@@ -26,6 +26,7 @@ class City(Model):
     class PydanticMeta:
         """ ensures new fields are computed and its a readonly field """
         computed = ('current_time', )
+        # exclude = ('timezone', )
 
 City_Pydantic = pydantic_model_creator(City, name='City')
 # CityIn will be used for data coming in
