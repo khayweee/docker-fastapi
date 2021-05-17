@@ -3,3 +3,4 @@ uvicorn>=0.13.4,<0.14
 flake8>=3.6.0,<3.7.0
 tortoise-orm>=0.17.2,<0.18
 requests>=2.22.0,<2.23.0
+asyncpg>=0.22.0
